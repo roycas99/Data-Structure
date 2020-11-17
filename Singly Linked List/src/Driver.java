@@ -19,7 +19,7 @@ public class Driver {
         list.removeAfter(list,null);
         System.out.println(list.linkSearch(list,node1));
 
-      //  list.display();
+       list.display();
 
 
 

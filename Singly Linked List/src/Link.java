@@ -1,7 +1,7 @@
 public class Link {
     public String bookName;
-    public int year;
-    public Link next;
+     int year;
+     Link next;
 
     public Link(String bookName,int year){
         this.bookName=bookName;

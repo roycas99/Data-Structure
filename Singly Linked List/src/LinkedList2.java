@@ -29,11 +29,11 @@ public class LinkedList2 {
     }
 
     public void insertAfter(LinkedList2 list,Link current,Link newNode){
-        if(list.header==null){
+        if(list.header==null){ // list is empty
             list.header=newNode;
             list.tail=newNode;
         }
-        else if(current==tail){
+        else if(current==tail){ // insert after tail
            list.tail.next=newNode;
             list.tail=newNode;
         }
